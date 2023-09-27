@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/* Configuração para telas de 768px de largura a 992px de largura */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    /* Configuração do corpo */
+    body{
+        background-image: linear-Gradient(to top, #1D252D, #BB4628);
+    }
+    /* Configuração da seção login */
+    section#login{
+        width: 80vw; /*Largura da Viewport*/
+    }
+    /*Configuração da imagem*/
+    section#login > div#imagem{
+        float: left;/*Deslocando o elemento para esquerda*/
+        width: 30%;/*Largura*/
+        height: 100%;/*Altura*/
+    }
+    /* Configuração do formulario */
+    section#login > div#formulario{
+        float: right;/*Deslocando o elemento para direita*/
+        width: 70%;/*Largura*/
+    }
+
+}
+/* Configuração para telas grandes */
+@media screen and (min-width: 992px) {
+    /* Configuração do corpo */
+    body{
+        background-image: linear-Gradient(to top, #1D252D, #BB4628);
+    }
+    /* Configuração da seção login */
+    section#login{
+        width: 950px;
+    }
+    /*Configuraçõa para seção imagem*/
+    section#login > div#imagem {
+        float: left;/*Deslocando o elemento para esquerda*/
+        width: 50%;/*Largura*/
+        height: 100%;/*Altura*/
+    }
+    /* Configuração do formulario */
+    section#login > div#formulario{
+        float: right;/*Deslocando o elemento para direita*/
+        width: 50%;/*Largura*/
+    }
+}

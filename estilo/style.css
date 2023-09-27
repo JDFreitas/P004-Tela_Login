@@ -6,3 +6,52 @@
     Vermelho: #BB4628
     Amarelo: #E0A526
 */
+
+/* configurações globais */
+*{ 
+    font-family: Arial, Helvetica, sans-serif; /*Fonte*/
+    padding: 0px;/*Preenchimento*/
+    box-sizing: border-box; /*Borda*/
+}
+/* configuração do corpo e do HTMl */
+body, html{
+    background-color: #BB4628;/*Cor de fundo*/
+    height: 100vh;/*Altura da Viewport*/
+    width: 100vw; /*Largura da viewport*/
+}
+/*Configuração da tag principal*/
+main{
+    position: relative; /*Posicionamento*/
+    height: 100vh;/*Altura da Viewport*/
+    width: 100vw; /*Largura da viewport*/
+}
+/* configuração seção login */
+section#login{
+    position: absolute; /*Posição*/
+    top: 50%;/*Distancia do Topo*/
+    left: 50%; /*Distancia da esquerda*/
+    transform: translate(-50%,-50%); /*Transformando a forma*/
+    overflow: hidden; /*Quando transbordar*/
+
+    background-color: #E0A526; /*Cor de fundo*/
+    width: 250px; /*Largura*/
+    height: 500px; /*Altura*/
+    border-radius: 20px; /*Raio da borda*/
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);/*Sombra na caixa*/
+
+    transition: width .3s, heigth .3s;/*Efeito de transição ente mudançã de altura e de largura*/
+    transition-timing-function: ease; /*Deixando o efeito mas suave*/
+}
+/* Configuração divisão imagem */
+section#login > div#imagem{
+    display: block;/*Comportamento do display*/
+    background: #BB4628 url(../imagem/vertical.jpg) no-repeat ; /*Shothand: cor de fundo - imagem - repetição*/
+    background-size: cover; /*Tamanho da imagem de fundo*/
+    background-position: center center; /*Posição da imagem de fundo*/
+    height: 200px; /*Altura*/
+}
+/* Configuração divisão formulario */
+section#login > div#formulario{
+    display: block;/*Comportamento do display*/
+    padding: 10px; /*Preenchimento*/
+}
