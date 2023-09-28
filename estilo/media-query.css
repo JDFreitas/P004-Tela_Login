@@ -35,13 +35,21 @@
     }
     /*Configuraçõa para seção imagem*/
     section#login > div#imagem {
-        float: left;/*Deslocando o elemento para esquerda*/
+        float: right;/*Deslocando o elemento para esquerda*/
         width: 50%;/*Largura*/
         height: 100%;/*Altura*/
     }
     /* Configuração do formulario */
     section#login > div#formulario{
-        float: right;/*Deslocando o elemento para direita*/
+        float: left;/*Deslocando o elemento para direita*/
         width: 50%;/*Largura*/
+    }
+    /* Configuração do titulo */
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+    /* Configurando o paragrafo */
+    div#formulario > p{
+        font-size: 1.2em;
     }
 }

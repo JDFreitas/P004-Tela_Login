@@ -11,6 +11,7 @@
 *{ 
     font-family: Arial, Helvetica, sans-serif; /*Fonte*/
     padding: 0px;/*Preenchimento*/
+    margin: 0px;
     box-sizing: border-box; /*Borda*/
 }
 /* configuração do corpo e do HTMl */
@@ -54,4 +55,14 @@ section#login > div#imagem{
 section#login > div#formulario{
     display: block;/*Comportamento do display*/
     padding: 10px; /*Preenchimento*/
+}
+
+/* Configuração do titulo */
+div#formulario > h1 {
+    text-align: center;
+    padding: 10px;
+}
+/* Configurando o paragrafo */
+div#formulario > p{
+    font-size: 0.8em;
 }
