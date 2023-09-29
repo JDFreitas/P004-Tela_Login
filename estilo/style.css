@@ -36,7 +36,7 @@ section#login{
 
     background-color: #E0A526; /*Cor de fundo*/
     width: 250px; /*Largura*/
-    height: 500px; /*Altura*/
+    height: 525px; /*Altura*/
     border-radius: 20px; /*Raio da borda*/
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);/*Sombra na caixa*/
 
@@ -57,12 +57,83 @@ section#login > div#formulario{
     padding: 10px; /*Preenchimento*/
 }
 
+
 /* Configuração do titulo */
 div#formulario > h1 {
-    text-align: center;
-    padding: 10px;
+    text-align: center;/*Alinhamento do texto*/
+    padding: 10px; /*Preenchimento*/
 }
 /* Configurando o paragrafo */
 div#formulario > p{
-    font-size: 0.8em;
+    font-size: 0.8em;/*Tamando da fonte*/
+    margin: 10px 0px;
+}
+/* Configuração das div com a classe campo */
+form > div.campo{
+    background-color: #1D252D; /*Cor de fundo*/
+    height: 40px; /*Altura*/
+    border-radius: 8px; /*Raio da borda*/
+    margin: 5px 0px;/*Margem*/
+}
+/* Configuração dos label dentro da div com a classe campo */
+div.campo > label {
+    display: none; /*Display invisivel*/
+}
+/* Configuração dos icones dentro da div com a classe campo */
+div.campo > i{
+    color: white;/*Cor do texto*/
+    font-size: 2em; /*Tamanho da fonte*/
+    width: 40px;/*Largura*/
+    padding: 5px;/*Preenchimento*/
+}
+/* Configuração das caixa de imput */
+div.campo > input{
+    background-color: #BB4628;/*Cor de fundo*/
+    font-size: 1em;/*Tamanho da fonte*/
+    width: calc(100% - 45px);/*Calculando o tamanho da largura*/
+    height: 100%;/*Altura*/
+    transform: translateY(-12px);/*Movendo a forma no eixo y*/
+    border: none;/*Desligando a borda*/
+    border-radius: 8px;/*Raio da Borda*/
+    padding: 4px;/*Preenchimento*/
+    
+}
+/* Configuração do botão entrar*/
+form > input[type=submit]{
+    display: block; /*display do tipo bloco*/
+    font-size: 1em; /*Tamanho da fonte*/
+    width: 100%; /*Largura*/
+    height: 40px; /*Altura*/
+    background-color: #BB4628;  /*Cor do fundo*/
+    color: white; /*Cor da fonte*/
+    border: none; /*Estilo da borda*/
+    border-radius: 5px; /*Raio da borda*/
+    cursor: pointer; /*Ponteiro do mouse*/
+}
+/* Configurando quando o mouse estiver sobre o botão entrar*/
+form > input[type=submit]:hover{
+    background-color: #3a170e;/*Cor de fundo*/
+}
+/* Configuração do link dentro do form com a classe botao */
+form > a.botao{
+    display: block;/*Display do tipo bloco*/
+    text-align: center; /*Alinhamento do texo no centro*/
+    font-size: 1em; /*Tamanho do texto*/
+    width: 100%; /*Largura*/
+    height: 40px; /*ALtura*/
+    padding-top: 5px; /*Preenchimento no topo*/
+    margin-top: 5px; /*Margem no topo*/
+    background-color: white; /*Cor do fundo*/
+    color: #BB4628; /*Cor da fonte*/
+    border: 1px solid #BB4628; /*ShortHand do estilo da borda*/
+    border-radius: 7px;/*Raio da borda*/
+    text-decoration: none; /*Decoração do texo invisivel*/
+}
+/* Configurando quando o mouse estiver sobre sobre o link*/
+form > a.botao:hover{
+    background-color: #1D252D;/*Cor de fundo*/
+}
+/*Configuração do icone dentro do link*/
+form > a.botao > i{
+    font-size: 0.8em;/*Tamonho do texto*/
 }

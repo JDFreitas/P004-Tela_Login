@@ -4,11 +4,13 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
     /* Configuração do corpo */
     body{
+        /* Cor de fundo no estilo gradiente */
         background-image: linear-Gradient(to top, #1D252D, #BB4628);
     }
     /* Configuração da seção login */
     section#login{
         width: 80vw; /*Largura da Viewport*/
+        height: 300px;
     }
     /*Configuração da imagem*/
     section#login > div#imagem{
@@ -27,11 +29,13 @@
 @media screen and (min-width: 992px) {
     /* Configuração do corpo */
     body{
+        /* Cor de fundo no estilo gradiente */
         background-image: linear-Gradient(to top, #1D252D, #BB4628);
     }
     /* Configuração da seção login */
     section#login{
-        width: 950px;
+        width: 950px;/*Largura*/
+        height: 400px;/*Altura*/
     }
     /*Configuraçõa para seção imagem*/
     section#login > div#imagem {
@@ -46,10 +50,10 @@
     }
     /* Configuração do titulo */
     div#formulario > h1 {
-        font-size: 2em;
+        font-size: 2em;/*Tamanho da fonte*/
     }
     /* Configurando o paragrafo */
     div#formulario > p{
-        font-size: 1.2em;
+        font-size: 1.1em;/*Tamanho da fonte*/
     }
 }

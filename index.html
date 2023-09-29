@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <!-- Link para o arquivo de estilo -->
+    <!-- Link para o arquivo de estilos locais -->
     <link rel="stylesheet" href="estilo/style.css">
     <link rel="stylesheet" href="estilo/media-query.css">
     <!-- arquivo de estilo do google fonts -->
@@ -12,10 +12,13 @@
 </head>
 <body>
     <main>
+        <!-- Seção para o retagulo da tela de login -->
         <section id="login">
+            <!-- Divisão para imagem -->
             <div id="imagem">
-                <!-- Aqui poderia ter uma tag de imagem -->
+                <!-- aqui vai imagem como plano de fundo no css -->
             </div>
+            <!-- Divisão para o formulario -->
             <div id="formulario">
                 <h1>Login</h1>
                 <p>
@@ -31,14 +34,18 @@
                         <input type="email" name="login" id="ilogin" placeholder="e-mail" autocomplete="email" required maxlength="30">
                         <label for="ilogin">Login</label>
                     </div>
+                    <!-- Divisão para o campo senha -->
                     <div class="campo">
                         <!-- tag icone adicionado um icone do google -->
                         <i class="material-symbols-outlined">vpn_key</i>
+                        <!-- Entrada do tipo senha -->
                         <input type="password" name="senha" id="isenha" placeholder="Senha" autocomplete="current-password" required minlength="8" maxlength="20">
                         <label for="isenha">senha</label>
                     </div>
+                    <!-- Botão entrar -->
                     <input type="submit" value="Entrar">
-                    <a href="esqueci.html"> 
+                    <!-- Link pra esqueci a senha -->
+                    <a href="esqueci.html" class="botao"> 
                         Esqueci a senha <i class="material-symbols-outlined">mail</i>
                     </a>
                 </form>
